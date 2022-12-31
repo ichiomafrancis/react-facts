@@ -1,0 +1,46 @@
+.content {
+  background-image: url(../images/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom 80px;
+}
+
+.header {
+  color: #fff;
+  letter-spacing: -0.05em;
+  padding: 57px 100px 0 27px;
+  font-weight: 700;
+  font-size: 39.06px;
+}
+
+.list-items {
+  padding: 46px 70px 110px 80px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list-items > li {
+  color: #fff;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/* Create special list style type */
+.list-items > li::before {
+  /* Unicode for a bullet */
+  content: "\2022";
+
+  /* Styles for Indentation*/
+
+  color: #61dafb;
+  display: inline-block;
+  width: 1em;
+  margin-top: -1em;
+  margin-left: -1em;
+
+  /* Other Styles */
+  font-size: 30px;
+}
+
+.list-items > li:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+  background-color: #21222a;
+  padding: 33px 27px 33px 27px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 30px;
+}
+
+.title > h3 {
+  margin-left: 8px;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22.2535px;
+  letter-spacing: -0.05em;
+}
+
+.navbar > p {
+  color: #deebf8;
+  font-weight: 600;
+  font-size: 16px;
+}
